@@ -15,7 +15,7 @@
               "state": {
                 "file": "Ch4.1.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "Ch4.1"
@@ -27,16 +27,36 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Transcripts/CH4.2.md",
+                "file": "Transcripts/CH4.2pt1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CH4.2"
+              "title": "CH4.2pt1"
             }
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "cd3f892c4c071e1a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e3b06a04b74fb958",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Transcripts/Ch4.2pt2.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Ch4.2pt2"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Transcripts/CH4.2.md",
+                "file": "Transcripts/Ch4.2pt2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +139,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for CH4.2"
+              "title": "Backlinks for Ch4.2pt2"
             }
           },
           {
@@ -128,12 +148,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Transcripts/CH4.2.md",
+                "file": "Transcripts/Ch4.2pt2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from CH4.2"
+              "title": "Outgoing links from Ch4.2pt2"
             }
           },
           {
@@ -157,13 +177,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Transcripts/CH4.2.md",
+                "file": "Transcripts/Ch4.2pt2.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CH4.2"
+              "title": "Outline of Ch4.2pt2"
             }
           }
         ]
@@ -183,12 +203,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9996e05257425936",
+  "active": "e3b06a04b74fb958",
   "lastOpenFiles": [
-    "Ch4.2.md",
-    "Transcripts/CH4.2.md",
-    "Transcripts",
+    "Transcripts/CH4.2pt1.md",
+    "Untitled.md",
+    "Transcripts/Ch4.2pt2.md",
     "Ch4.1.md",
+    "Ch4.2.md",
+    "Transcripts",
     "Labs/Lab7.md",
     "Labs",
     "Welcome.md"
