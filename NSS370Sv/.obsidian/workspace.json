@@ -50,7 +50,7 @@
               "state": {
                 "file": "Transcripts/Ch4.2pt2.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
               "title": "Ch4.2pt2"
@@ -206,8 +206,8 @@
   "active": "e3b06a04b74fb958",
   "lastOpenFiles": [
     "Transcripts/CH4.2pt1.md",
-    "Untitled.md",
     "Transcripts/Ch4.2pt2.md",
+    "Untitled.md",
     "Ch4.1.md",
     "Ch4.2.md",
     "Transcripts",

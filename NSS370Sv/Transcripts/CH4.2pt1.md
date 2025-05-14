@@ -358,6 +358,7 @@ scheduling
 ```
 
 # Summary
+
 The document provides an in-depth exploration of the forwarding functions and architecture within the network layer, specifically focusing on router components and processes. Here's a summary:
 
 1. **Overview of Forwarding in Routers**:
