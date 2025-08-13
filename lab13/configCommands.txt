@@ -1,1 +1,31 @@
-vyos1
+vyos1 (Eth0 -> vyos2; Eth1 -> vyos3)
+configure
+set interfaces ethernet eth0 address 10.0.12.1/30
+set interfaces ethernet eth1 address 10.0.31.2/30
+set protocols ospf area 0 network 10.0.12.0/30
+set protocols ospf area 0 network 10.0.31.0/30
+commit
+save
+exit
+08/08, 10:36: 
+
+vyos2 (Eth0 -> vyos1; Eth1 -> vyos3)
+configure
+set interfaces ethernet eth0 address 10.0.12.2/30
+set interfaces ethernet eth1 address 10.0.23.1/30
+set protocols ospf area 0 network 10.0.12.0/30
+set protocols ospf area 0 network 10.0.23.0/30
+commit
+save
+exit
+08/08, 10:36: 
+
+vyos3 (Eth1 -> vyos1; Eth0 -> vyos2)
+configure
+set interfaces ethernet eth0 address 10.0.23.2/30
+set interfaces ethernet eth1 address 10.0.31.1/30
+set protocols ospf area 0 network 10.0.23.0/30
+set protocols ospf area 0 network 10.0.31.0/30
+commit
+save
+exit
